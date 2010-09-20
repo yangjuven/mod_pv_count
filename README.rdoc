@@ -1,0 +1,21 @@
+= mod_pv_count
+
+* Yang Juven (yangjuven@gmail.com)
+* Sep 20, 2010
+
+== Description
+
+mod_pv_count is an Apache module that statistics page view using memcache.
+
+== REQUIREMENTS
+
+* libmemcached-0.43 or better
+* Memcached server
+* Apache 2.2
+
+== CONFIGURATION
+
+The following configuration directives are used by mod_pv_count:
+
+[MBServers serverlist]    A list of participating memcache servers, in the form 
+	                  (servername:port,servername:port...) 
